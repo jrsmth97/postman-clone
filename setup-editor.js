@@ -1,7 +1,7 @@
-import { EditorState, basicSetup } from "@codemirror/basic-setup";
-import { defaultTabBinding } from "@codemirror/commands";
-import { EditorView, keymap } from "@codemirror/view";
-import { json } from "@codemirror/lang-json";
+const { EditorState, basicSetup } = require("@codemirror/basic-setup");
+const { defaultTabBinding } = require("@codemirror/commands");
+const { EditorView, keymap } = require("@codemirror/view");
+const { json } = require("@codemirror/lang-json");
 
 export default function setupEditors() {
   const jsonRequestBody = document.querySelector("[data-json-request-body]");
