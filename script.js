@@ -1,4 +1,4 @@
-import "bootstrap/dist/js/bootstrap.min.js";
+import "./node_modules/bootstrap/dist/js/bootstrap.min.js";
 import axios from "./node_modules/axios";
 import prettyBytes from "./node_modules/pretty-bytes";
 import setupEditors from "./setup-editor";
