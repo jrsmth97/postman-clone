@@ -1,8 +1,6 @@
-import "bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import axios from "axios";
-import prettyBytes from "pretty-bytes";
-import setupEditors from "./setup-editor";
+const axios = require("axios");
+const prettyBytes = require("pretty-bytes");
+const setupEditors = require("./setup-editor");
 
 const form = document.querySelector("form");
 const queryParamsContainer = document.querySelector("[data-query-params]");
