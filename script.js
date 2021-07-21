@@ -1,6 +1,6 @@
 import "bootstrap/dist/js/bootstrap.min.js";
-import axios from "axios";
-import prettyBytes from "pretty-bytes";
+import axios from "./node_modules/axios";
+import prettyBytes from "./node_modules/pretty-bytes";
 import setupEditors from "./setup-editor";
 
 const form = document.querySelector("form");
