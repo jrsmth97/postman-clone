@@ -1,6 +1,7 @@
-const axios = require("axios");
-const prettyBytes = require("pretty-bytes");
-const setupEditors = require("./setup-editor");
+import "bootstrap/dist/js/bootstrap.min.js";
+import axios from "axios";
+import prettyBytes from "pretty-bytes";
+import setupEditors from "./setup-editor";
 
 const form = document.querySelector("form");
 const queryParamsContainer = document.querySelector("[data-query-params]");
@@ -65,7 +66,6 @@ form.addEventListener("submit", (e) => {
       updateResponseDetails(response);
       updateResponseEditor(response.data);
       updateResponseHeaders(response.headers);
-      console.log(response);
     });
 });
 
